@@ -6,7 +6,7 @@ Running a Facebook Page means feeding it every day. Facebook Post Scrapper does 
 you like, tell it what "popular" means to you, and it collects the content that is already proven to work, then posts
 it to your Page with your own hashtags.
 
-![The main window: the Pages to watch, the post types to collect and your options](images/main-window.png)
+![The main window: the Pages to watch, the post types to collect, your options and the daily schedule](images/main-window.png)
 
 ## What it does
 
@@ -16,11 +16,13 @@ it to your Page with your own hashtags.
    choose, are kept. Everything else is skipped.
 4. **It goes through every Page for you**, several Pages at a time, and shows what it finds as it works.
 5. **It posts what it keeps to your Page**, with your hashtags added at the end, or saves it for you to post later.
+6. **It can do all this by itself every day.** Pick a time and press **Create schedule**: your Page gets fresh content
+   daily without you opening the app.
 
 Each Page gets its own tab. **KEEP** marks what passed your bar, with its views or reactions, its caption and a link
 you can click to open it:
 
-![A Page's tab: popular Reels kept, with their views, captions and links](images/page-tab-results.png)
+![A Page's tab: popular posts kept, with their reactions, captions and links](images/page-tab-results.png)
 
 When the run ends, a summary shows how much was checked and saved:
 
@@ -30,6 +32,7 @@ When the run ends, a summary shows how much was checked and saved:
 
 | | |
 |---|---|
+| **Runs every day by itself** | Choose a time and press **Create schedule**. Every day at that time the app opens, scrapes your Pages, posts to your Page and closes again, even if you closed it. |
 | **Popular content only** | Set Min views for videos and Reels, and Min reactions for text, photo and link posts. |
 | **All kinds of posts** | Videos, Reels, text, photo and link posts, each one switched on or off with a tick. |
 | **Posts to your Page** | Sign in to Facebook once, pick your Page, and what is kept is posted there automatically. |
@@ -40,6 +43,21 @@ When the run ends, a summary shows how much was checked and saved:
 | **Clickable results** | Every kept item is shown with its link: click it to open the post in your browser. |
 | **Everything in one file** | All results are saved to a spreadsheet (CSV) you can open in Excel, with the link, reactions, views, text and images of each item. |
 | **Stop whenever you like** | Set a limit on how many new items a run saves, or press **Stop** at any time. Nothing is lost. |
+
+## Running every day by itself
+
+1. Set up your Pages, post types and options as you want them, and sign in to Facebook if you post to your Page.
+2. Under the buttons, set **Run every day at** to the time you want, for example `08:00`.
+3. Press **Create schedule**. The line next to it confirms: "Scrapes every day at 08:00 while you are signed in to
+   Windows."
+
+At that time the app opens minimized, runs with the settings you saw in the window, and closes again when it's done.
+If the app is already open, it runs in that window. You can close the app; just stay signed in to Windows (a locked
+screen is fine). If the PC was off or asleep at that time, it runs as soon as you're back.
+
+- **Change the time:** pick the new time and press **Change schedule**.
+- **Stop it:** press **Remove schedule**. Uninstalling the app also removes it.
+- **See what happened:** everything a run did is in the log files in `%LOCALAPPDATA%\FbPostScrapperApp\Logs`, one per day.
 
 ## Safe sign-in
 
