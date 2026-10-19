@@ -82,5 +82,5 @@ follow Facebook's terms and policies. See the license agreement shown during set
 
 ## Contact
 
-For licenses and support: **khanh1985@gmail.com**
-**Phone:** +84 985 884 764
+- For licenses and support: **khanh1985@gmail.com**
+- **Phone:** +84 985 884 764
