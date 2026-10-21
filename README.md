@@ -102,3 +102,4 @@ follow Facebook's terms and policies. See the license agreement shown during set
 
 - For licenses and support: **khanh1985@gmail.com**
 - **Phone:** +84 985 884 764
+- [Privacy policy](PRIVACY.md), including how to delete your data
