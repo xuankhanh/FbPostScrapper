@@ -37,6 +37,7 @@ When the run ends, a summary shows how much was checked and saved:
 | **All kinds of posts** | Videos, Reels, text, photo and link posts, each one switched on or off with a tick. |
 | **Posts to your Page** | Sign in to Facebook once, pick your Page, and what is kept is posted there automatically. |
 | **Your own hashtags** | Add tags such as `#funny #meme` on their own line at the end of every post. |
+| **PiP videos** | Tick **Make PiP video** to post each video and Reel as a picture-in-picture video made from it, instead of the original. The first time, the app downloads ffmpeg (about 110 MB) to make them. |
 | **No duplicates** | Everything found is remembered, so the same video or post is never saved or posted twice, even across runs and Pages. |
 | **Post later** | Found more than you want to post today? The rest is kept as pending, to post later with **Post pending**. |
 | **Several Pages at once** | Choose how many Pages are scraped at the same time, and follow each one in its own tab. |
@@ -102,4 +103,4 @@ follow Facebook's terms and policies. See the license agreement shown during set
 
 - For licenses and support: **khanh1985@gmail.com**
 - **Phone:** +84 985 884 764
-- [Privacy policy](PRIVACY.md), including how to delete your data
+- [Privacy policy](https://github.com/xuankhanh/FbPostScrapper/blob/main/PRIVACY.md), including how to delete your data
