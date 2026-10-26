@@ -94,6 +94,9 @@ Licenses are available for a period of time (for example monthly or yearly), for
 Run `FbPostScrapper-<version>.exe` and follow the steps. No administrator rights are needed. Installing a new
 version over the old one keeps your Pages, your sign-in, your license and your results.
 
+When a new version is out, the app says so when it opens, and offers to install it for you: it closes, updates itself
+and opens again. You can also click **Update to ...** in the status bar.
+
 ## Please note
 
 Facebook Post Scrapper works with Facebook, which has its own terms. Repost only content you have the right to use, and
